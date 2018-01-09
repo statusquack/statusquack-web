@@ -3,19 +3,23 @@ body {
 	padding: 0.6em;	
 	background: linear-gradient(to bottom, rgba(255,86,34,1) 0%, rgba(255,86,34,1) 49%, rgba(187,0,69,1) 49.01%, rgba(187,0,69,1) 51%, rgba(0,187,255,1) 51.01%, rgba(0,187,255,1) 100%);
 }
+.sq-invisible {
+	color: white;
+}
 .sq-border {
 	background-color: white;
 	height: calc(100vh - 1.2em);
 	display: block;
 }
-.logo {
-	width: 5em;
-}
+.sq-logo { width: 5em; }
+.sq-symbol { height: 3em; }
+
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	body {padding: 0.75em;}
 	.sq-border { height: calc(100vh - 1.5em); }
-	.logo {	width: 6.25em;}
+	.sq-logo {	width: 6.25em;}
+	.sq-symbol { height: 3.75em; }
 }
 
 
