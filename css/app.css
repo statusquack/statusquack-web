@@ -1,0 +1,110 @@
+/* GENERAL */
+body {
+	padding: 0.6em;	
+	background: linear-gradient(to bottom, rgba(255,86,34,1) 0%, rgba(255,86,34,1) 49%, rgba(187,0,69,1) 49.01%, rgba(187,0,69,1) 51%, rgba(0,187,255,1) 51.01%, rgba(0,187,255,1) 100%);
+}
+.sq-border {
+	background-color: white;
+	height: calc(100vh - 1.2em);
+	display: block;
+}
+.logo {
+	width: 5em;
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	body {padding: 0.75em;}
+	.sq-border { height: calc(100vh - 1.5em); }
+	.logo {	width: 6.25em;}
+}
+
+
+/* FONTS */
+.small-caps {	}
+a, p { line-height: 1.2; font-family: 'Source Sans Pro', sans-serif; }
+a, p, h1, h2, h3, h4 { color: rgba(0,0,0,.7); }
+h1, h2, h3, h4 { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1; }
+h1.subtle, h2.subtle, h3.subtle, h4.subtle { font-weight: 500; }
+h1 .subtle, h2 .subtle, h3 .subtle, h4 .subtle { font-weight: 500; }
+
+#nav a.link, a.btn, p,
+h4 			{ font-size: 16px; } 
+h3 			{ font-size: 20px; }
+h2 			{ font-size: 25px; }
+h1 			{ font-size: 31px; }
+p.small { font-size: 13px; }
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	#nav a.link,
+	a.btn,
+	p, 
+	h4 			{ font-size: 20px; } 
+	h3 			{ font-size: 25px; }
+	h2 			{ font-size: 31px; }
+	h1 			{ font-size: 39px; }
+	p.small { font-size: 16px; }
+}
+
+
+
+
+
+/* BUTTONS & LINKS */
+a.link {
+	color: #ffa200; 
+}
+a.link:hover {
+	transition: all 0.15s ease;
+	color: black;
+}
+a.btn {
+	position: relative;
+	display: inline-block;
+	font-weight: 500;
+	padding: 0.5em .7em;
+	color: #ffa200; 
+	background-color: white;
+	border-radius: 4px;
+}
+a.btn:hover {
+	transition: all 0.3s ease;
+	color: black;
+	position: relative;
+}
+a.btn:active {
+	/*color:white;
+	background-color: #ffa200;*/
+	position: relative;
+	top: 2px;
+	transition: all 0.3s ease;
+}
+a.btn.square {
+	padding: 0.7em 0em 0em;
+	width: 4.5em;
+	height: 4.5em;
+	margin-bottom: .5em;
+}
+a.btn.square i {	}
+a.btn .out {
+	display: inline;
+	position: absolute;
+	top: -.4em;
+	right: -.4em;
+	z-index: 10;
+	}
+
+
+
+
+/* xSmall for 320px */
+@media screen and (max-width: 360px) {
+	
+}
+
+/* more than 1200px */
+@media print, screen and (min-width: 75rem) {
+
+}
+
+
