@@ -14,19 +14,19 @@ body {
 	background-color: white;
 	min-height: calc(100vh - 1.2em);
 }
-.sq-logo { width: 5em; }
 .sq-symbol { height: 3em; }
+.sq-logo { width: 5em; }
 .nav-line { border-bottom: 0.25em solid rgba(255,86,34,.25)}
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	body {padding: 0.75em;}
 	.sq-border { min-height: calc(100vh - 1.5em); }
-	.sq-logo { width: 6.25em;}
 	.sq-symbol { height: 3.75em; }
+	.sq-logo { width: 6.25em;}
 	.grid-container {
-		padding-left: 1.5em;
-		padding-right: 1.5em;
+		padding-left: 2em;
+		padding-right: 2em;
 	}
 }
 
