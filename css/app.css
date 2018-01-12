@@ -1,4 +1,7 @@
-/* GENERAL */
+/* - - - - - - -
+ GENERAL 
+- - - - - - - */
+
 body {
 	padding: 0.6em;	
 	background: linear-gradient(to bottom, rgba(255,86,34,1) 0%, rgba(255,86,34,1) 49%, rgba(187,0,69,1) 49.01%, rgba(187,0,69,1) 51%, rgba(0,187,255,1) 51.01%, rgba(0,187,255,1) 100%);
@@ -8,14 +11,49 @@ body {
 	padding-right: 1em;
 }
 .sq-invisible {
-	color: white; margin-bottom: -.25em;
+	color: white; margin-bottom: -.3em;
 }
 .sq-border {
 	background-color: white;
 	min-height: calc(100vh - 1.2em);
 }
-.sq-symbol { height: 3em; margin-right: .5em;}
-.sq-logo { width: 5em; }
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	body {padding: 0.75em;}
+	.grid-container {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	.sq-border { min-height: calc(100vh - 1.5em); }
+}
+
+
+/* - - - - - - -
+ NAV 
+- - - - - - - */
+
+#nav {
+	text-align: right;
+	padding-top: .55em;
+}
+	#nav span { opacity: .25; position: relative; top: .1em; }
+	#nav a { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1; }
+
+.sq-brand {
+	display: inline-block;
+	transform: scale(1, 1);
+	transition: all 0.15s ease;
+}
+.sq-brand:hover {
+	transform: scale(1.05, 1.05);
+	transition: all 0.15s ease;
+}
+.sq-brand:active {
+	transform: scale(0.97, 0.97);
+	transition: all 0 ease;
+}
+.sq-symbol 		{ height: 3em; margin-right: .5em;}
+.sq-logo 			{ width: 5em; }
 .nav-line { 
 	border-bottom: 0.2em solid rgba(255,86,34,1);
 	margin-top: .5em;
@@ -24,37 +62,64 @@ body {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-	body {padding: 0.75em;}
-	.sq-border { min-height: calc(100vh - 1.5em); }
-	.sq-symbol { height: 3.75em; margin-right: .625em; }
-	.sq-logo { width: 6.25em;}
+	#nav 				{ padding-top: 0.6875em; }
+	.sq-symbol 	{ height: 3.75em; margin-right: .625em; }
+	.sq-logo 		{ width: 6.25em; }
 	.nav-line { 
 		border-bottom-width: 0.25em;
 		margin-top: .625em;
 		margin-bottom: 1.25em;
 	}
-	.grid-container {
-		padding-left: 2em;
-		padding-right: 2em;
+}
+
+
+@media screen and (max-width: 380px) {
+	.sq-brand .sq-logo {
+		position: absolute;
+		left: 2.2em;
+		top: 0.77em;
+		transform: scale(1.2, 1.2) rotate(-90deg);
+
 	}
 }
 
-/* NAV */
-#nav {
-	text-align: right;
-}
-#nav span { opacity: .25; position: relative; top: .1em}
 
-/* FONTS */
+
+/* - - - - - - -
+ FOOTER 
+- - - - - - - */
+#footer {
+	margin-bottom: 2em;
+}
+.foot-line { 
+	border-bottom: 0.2em solid rgba(0,187,255,1);
+	margin-top: .5em;
+	margin-bottom: 1em;
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.foot-line { 
+		border-bottom-width: 0.25em;
+		margin-top: .625em;
+		margin-bottom: 1.25em;
+	}
+}
+
+
+/* - - - - - - -
+ FONTS 
+- - - - - - - */
+
 .small-caps {	}
 a, p { line-height: 1.2; font-family: 'Source Sans Pro', sans-serif; }
 p { color: rgba(17,17,68,.7); }
 h1, h2, h3, h4 { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1; color: #111144;}
-#nav a { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1; }
+
 h1.subtle, h2.subtle, h3.subtle, h4.subtle { font-weight: 500; }
 h1 .subtle, h2 .subtle, h3 .subtle, h4 .subtle { font-weight: 500; }
 
-a, p, h4 			{ font-size: 16px; } 
+a.link, p, h4 			{ font-size: 16px; } 
 h3, #nav a 				{ font-size: 20px; }
 h2	 					{ font-size: 25px; }
 h1 						{ font-size: 31px; }
@@ -62,7 +127,7 @@ p.small 			{ font-size: 13px; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-	a, p, h4 		{ font-size: 20px; } 
+	a.link, p, h4 		{ font-size: 20px; } 
 	h3,#nav a		{ font-size: 25px; }
 	h2 					{ font-size: 31px; }
 	h1 					{ font-size: 39px; }
@@ -72,11 +137,12 @@ p.small 			{ font-size: 13px; }
 
 /* BUTTONS & LINKS */
 a.link {
+	transition: all 0.15s ease;
 	color: rgba(255,86,34,1); 
 }
 a.link:hover {
 	transition: all 0.15s ease;
-	color: black;
+	color: rgba(187,0,69,1);
 }
 a.btn {
 	position: relative;
@@ -117,11 +183,10 @@ a.btn .out {
 
 
 
-/* xSmall for 320px */
-@media screen and (max-width: 360px) {
-	.sq-logo {display: none;}
-}
+/* Phones */
+@media screen and (max-width: 380px) {
 
+}
 /* more than 1200px */
 @media print, screen and (min-width: 75rem) {
 
