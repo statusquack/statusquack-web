@@ -52,7 +52,7 @@ section.white {
 	padding-bottom: 1em;
 }
 	#nav span { opacity: .25; position: relative; top: .1em; }
-	#nav a { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1; }
+	#nav h3, #nav h3 a { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1; }
 
 .sq-brand {
 	display: inline-block;
@@ -81,7 +81,7 @@ section.white {
 	.sq-brand .sq-logo {
 		position: absolute;
 		left: 2.2em;
-		top: 0.77em;
+		top: 0.85em;
 		transform: scale(1.2, 1.2) rotate(-90deg);
 
 	}
@@ -110,7 +110,9 @@ section.white {
 .small-caps {	}
 a, p { line-height: 1.2; font-family: 'Source Sans Pro', sans-serif; }
 p { color: rgba(17,17,68,.7); }
-h1, h2, h3, h4 { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1; color: #111144;}
+h1, h2 { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1; color: #111144;}
+h3, h4 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; line-height: 1; color: #111144;}
+
 
 h1.subtle, h2.subtle, h3.subtle, h4.subtle { font-weight: 500; }
 h1 .subtle, h2 .subtle, h3 .subtle, h4 .subtle { font-weight: 500; }
