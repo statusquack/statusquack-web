@@ -22,7 +22,7 @@ section.white {
 	padding-bottom: 3em;
 }
 .sq-invisible {
-	color: white; margin-bottom: -.3em;
+	color: white; margin-bottom: -.3em; line-height: 1;
 }
 .sq-border {
 	min-height: calc(100vh - 1.2em);
@@ -95,6 +95,10 @@ section.white {
 #footer {
 	padding-bottom: 1em;
 }
+#footer .heart {
+	color:  rgba(187,0,69,1);
+	font-size: 80%;
+}
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
@@ -110,12 +114,12 @@ section.white {
 .small-caps {	}
 a, p { line-height: 1.2; font-family: 'Source Sans Pro', sans-serif; }
 p { color: rgba(17,17,68,.7); }
-h1, h2 { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1; color: #111144;}
-h3, h4 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; line-height: 1; color: #111144;}
+h1, h2 { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1.25; color: #111144;}
+h3, h4 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; color: #111144;}
 
 
-h1.subtle, h2.subtle, h3.subtle, h4.subtle { font-weight: 500; }
-h1 .subtle, h2 .subtle, h3 .subtle, h4 .subtle { font-weight: 500; }
+h1.subtle, h2.subtle, h3.subtle, h4.subtle { font-weight: 400; }
+h1 .subtle, h2 .subtle, h3 .subtle, h4 .subtle { font-weight: 400; }
 
 p 						{ font-size: 16px; } 
 h4, #nav a 		{ font-size: 20px; }
@@ -152,11 +156,12 @@ a.btn {
 	color: #fff; 
 	background-color: rgba(255,86,34,1);
 	border-radius: 1px;
+	font-weight: 700;
 }
 a.btn:hover {
 	transition: all 0.3s ease;
-	color: black;
 	position: relative;
+	background-color: rgba(187,0,69,1);
 }
 a.btn:active {
 	/*color:white;
