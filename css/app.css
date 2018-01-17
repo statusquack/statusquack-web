@@ -27,7 +27,9 @@ section.white {
 .sq-border {
 	min-height: calc(100vh - 1.2em);
 }
-
+.has-margin {
+	margin-bottom: 2em;
+}
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	body {padding: 0.75em;}
@@ -87,7 +89,10 @@ section.white {
 	}
 }
 
-
+/* - - - - - - -
+ CLAIM 
+- - - - - - - */
+#claim h2 { color: rgba(0,187,255,1); }
 
 /* - - - - - - -
  FOOTER 
