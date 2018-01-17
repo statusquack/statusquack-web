@@ -74,6 +74,7 @@ section.white {
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	#nav 				{ padding-top: 0.6875em; padding-bottom: 1.25em; }
+		#nav span { margin-left: 2%; margin-right: 2%;}
 	.sq-symbol 	{ height: 3.75em; margin-right: .625em; }
 	.sq-logo 		{ width: 6.25em; }
 }
