@@ -120,7 +120,7 @@ section.white {
 .small-caps {	}
 a, p { line-height: 1.2; font-family: 'Source Sans Pro', sans-serif; }
 p { color: rgba(17,17,68,.7); }
-h1, h2 { font-family: 'bungee', 'Teko', sans-serif; font-weight: 700; line-height: 1.25; color: #111144;}
+h1, h2 { font-family: 'bungee', 'Teko', sans-serif; /*font-weight: 700;*/ line-height: 1.25; color: #111144;}
 h3, h4 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; color: #111144;}
 
 
@@ -142,6 +142,11 @@ p.small 			{ font-size: 13px; }
 	h2 					{ font-size: 39px; }
 	h1 					{ font-size: 49px; }
 	p.small 		{ font-size: 16px; }
+}
+@media screen and (max-width: 380px) {
+	h1 {
+		font-size: 36px;
+	}
 }
 
 
