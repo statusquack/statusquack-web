@@ -121,6 +121,7 @@ section.white {
 .small-caps {	}
 a, p { line-height: 1.2; font-family: 'Source Sans Pro', sans-serif; }
 p { color: rgba(17,17,68,.7); }
+p b { color: rgba(17,17,68,1); }
 h1, h2 { font-family: 'bungee', 'Teko', sans-serif; /*font-weight: 700;*/ line-height: 1.25; color: #111144;}
 h3, h4 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; color: #111144;}
 
@@ -196,7 +197,13 @@ a.btn .out {
 	right: -.4em;
 	z-index: 10;
 	}
-
+.btn.large {
+	font-size: 20px
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.btn.large		 	{ font-size: 25px; }
+}
 
 
 
