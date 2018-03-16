@@ -50,11 +50,12 @@ section.white {
 
 #nav {
 	text-align: right;
-	padding-top: .55em;
-	padding-bottom: 1em;
+	padding-top: .25em;
+	padding-bottom: 1.1em;
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-weight: 700;  	
 }
-	#nav span { opacity: .25; position: relative; top: .1em; }
-	#nav h3, #nav h3 a { font-family: 'Teko', sans-serif; font-weight: 700; line-height: 1; }
+	#nav span { opacity: .25; }
 
 .sq-brand {
 	display: inline-block;
@@ -73,7 +74,7 @@ section.white {
 .sq-logo 			{ width: 5em; }
 /* Medium and up */
 @media screen and (min-width: 40em) {
-	#nav 				{ padding-top: 0.6875em; padding-bottom: 1.25em; }
+	#nav 				{  }
 		#nav span { margin-left: 2%; margin-right: 2%;}
 	.sq-symbol 	{ height: 3.75em; margin-right: .625em; }
 	.sq-logo 		{ width: 6.25em; }
@@ -127,8 +128,8 @@ h3, h4 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; color: #1
 h1.subtle, h2.subtle, h3.subtle, h4.subtle { font-weight: 400; }
 h1 .subtle, h2 .subtle, h3 .subtle, h4 .subtle { font-weight: 400; }
 
-p 						{ font-size: 16px; } 
-h4, #nav a 		{ font-size: 20px; }
+p				 			{ font-size: 16px; } 
+h4, #nav  		{ font-size: 20px; }
 h3	 					{ font-size: 25px; }
 h2 						{ font-size: 31px; }
 h1 						{ font-size: 39px; }
@@ -136,8 +137,8 @@ p.small 			{ font-size: 13px; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-	p		 			{ font-size: 20px; }
-	h4,#nav a		{ font-size: 25px; }
+	p		 				{ font-size: 20px; }
+	h4,#nav 		{ font-size: 25px; }
 	h3 					{ font-size: 31px; }
 	h2 					{ font-size: 39px; }
 	h1 					{ font-size: 49px; }
