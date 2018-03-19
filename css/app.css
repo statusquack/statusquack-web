@@ -30,6 +30,10 @@ section.white {
 .has-margin {
 	margin-bottom: 2em;
 }
+.has-margin-half {
+	margin-bottom: 1em;
+}
+
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	body {padding: 0.75em;}
@@ -100,9 +104,14 @@ section.white {
 - - - - - - - */
 #people img {
 	border-radius: 100%;
-	
+	-webkit-filter: grayscale(1);
 }
-
+@media screen and (max-width: 390px) {
+	#people .cell {
+		padding-left: 0.3em;
+		padding-right: 0.3em;
+	}
+}
 
 /* - - - - - - -
  FOOTER 
