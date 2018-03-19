@@ -106,6 +106,10 @@ section.white {
 	-webkit-filter: grayscale(1);
 	margin-bottom: 0.5em;
 }
+#people img + p {
+	margin-left: -1em;
+	margin-right: -1em;
+}
 @media screen and (max-width: 390px) {
 	#people .cell {
 		padding-left: 0.3em;
