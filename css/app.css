@@ -104,6 +104,7 @@ section.white {
 #people img {
 	border-radius: 100%;
 	-webkit-filter: grayscale(1);
+	margin-bottom: 0.5em;
 }
 @media screen and (max-width: 390px) {
 	#people .cell {
@@ -181,7 +182,7 @@ a.btn {
 	position: relative;
 	display: inline-block;
 	font-weight: 500;
-	padding: 0.5em .7em;
+	padding: 0.5em .7em 0.55em;
 	color: #fff; 
 	background-color: rgba(255,86,34,1);
 	border-radius: 1px;
@@ -235,4 +236,47 @@ a.btn .out {
 
 }
 
+
+
+
+/* Old Foundation Visibility Classes */
+@media screen and (max-width: 39.9375em) {
+  .hide-for-small-only {
+    display: none !important; } }
+
+@media screen and (max-width: 0em), screen and (min-width: 40em) {
+  .show-for-small-only {
+    display: none !important; } }
+
+@media screen and (min-width: 40em) {
+  .hide-for-medium {
+    display: none !important; } }
+
+@media screen and (max-width: 39.9375em) {
+  .show-for-medium {
+    display: none !important; } }
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .hide-for-medium-only {
+    display: none !important; } }
+
+@media screen and (max-width: 39.9375em), screen and (min-width: 64em) {
+  .show-for-medium-only {
+    display: none !important; } }
+
+@media screen and (min-width: 64em) {
+  .hide-for-large {
+    display: none !important; } }
+
+@media screen and (max-width: 63.9375em) {
+  .show-for-large {
+    display: none !important; } }
+
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+  .hide-for-large-only {
+    display: none !important; } }
+
+@media screen and (max-width: 63.9375em), screen and (min-width: 75em) {
+  .show-for-large-only {
+    display: none !important; } }
 
