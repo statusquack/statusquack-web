@@ -85,8 +85,9 @@ section.white {
 	#nav { padding-top: 0.4em; }
 }
 @media screen and (min-width: 40em) {
-	#nav 				{ padding-top: 0.2em }
+	#nav 				{ padding-top: 0.3em }
 		#nav span { margin-left: 2%; margin-right: 2%;}
+	.sq-brand 	{ padding-bottom: 0.8em;}
 	.sq-symbol 	{ height: 3.75em; margin-right: .625em; }
 	.sq-logo 		{ width: 6.25em; }
 }
