@@ -50,8 +50,7 @@ section.white {
 
 #nav {
 	text-align: right;
-	padding-top: .25em;
-	padding-bottom: 1.1em;
+	padding-top: .3em;
 	font-family: 'Source Sans Pro', sans-serif; 
 	font-weight: 700;  	
 }
@@ -61,6 +60,7 @@ section.white {
 	display: inline-block;
 	transform: scale(1, 1);
 	transition: all 0.15s ease;
+	padding-bottom: 0.6em;
 }
 .sq-brand:hover {
 	transform: scale(1.05, 1.05);
@@ -72,29 +72,37 @@ section.white {
 }
 .sq-symbol 		{ height: 3em; margin-right: .5em;}
 .sq-logo 			{ width: 5em; }
-/* Medium and up */
+@media screen and (max-width: 390px) {
+	.sq-brand .sq-logo {
+		position: absolute;
+		left: 2.2em;
+		top: 0.85em;
+		transform: scale(1.2, 1.2) rotate(-90deg);
+	}
+	#nav { padding-top: 0.4em; }
+}
 @media screen and (min-width: 40em) {
-	#nav 				{  }
+	#nav 				{ padding-top: 0.2em }
 		#nav span { margin-left: 2%; margin-right: 2%;}
 	.sq-symbol 	{ height: 3.75em; margin-right: .625em; }
 	.sq-logo 		{ width: 6.25em; }
 }
 
 
-@media screen and (max-width: 380px) {
-	.sq-brand .sq-logo {
-		position: absolute;
-		left: 2.2em;
-		top: 0.85em;
-		transform: scale(1.2, 1.2) rotate(-90deg);
-
-	}
-}
-
 /* - - - - - - -
  CLAIM 
 - - - - - - - */
 #claim h2 { color: rgba(0,187,255,1); }
+
+
+/* - - - - - - -
+ PEOPLE 
+- - - - - - - */
+#people img {
+	border-radius: 100%;
+	
+}
+
 
 /* - - - - - - -
  FOOTER 
@@ -145,10 +153,9 @@ p.small 			{ font-size: 13px; }
 	h1 					{ font-size: 49px; }
 	p.small 		{ font-size: 16px; }
 }
-@media screen and (max-width: 380px) {
-	h1 {
-		font-size: 36px;
-	}
+@media screen and (max-width: 390px) {
+	h1 { font-size: 36px; }
+	#nav { font-size: 18px; }
 }
 
 
@@ -198,18 +205,21 @@ a.btn .out {
 	z-index: 10;
 	}
 .btn.large {
-	font-size: 20px
+	font-size: 20px;
 }
 /* Medium and up */
 @media screen and (min-width: 40em) {
-	.btn.large		 	{ font-size: 25px; }
+	.btn.large		 	{ 
+		font-size: 25px; 
+		border-radius: 2px;
+	}
 }
 
 
 
 /* Phones */
-@media screen and (max-width: 380px) {
-
+@media screen and (max-width: 400px) {
+	
 }
 /* more than 1200px */
 @media print, screen and (min-width: 75rem) {
