@@ -58,6 +58,10 @@ section.white {
 	font-weight: 700;  	
 }
 	#nav span { opacity: .25; }
+	#nav a.active {
+		border-bottom: 0.15em solid #111144;
+		padding-bottom: 25px
+	}
 
 .sq-brand {
 	display: inline-block;
@@ -83,6 +87,9 @@ section.white {
 		transform: scale(1.2, 1.2) rotate(-90deg);
 	}
 	#nav { padding-top: 0.4em; }
+	#nav a.active {
+		padding-bottom: 26px
+	}
 }
 @media screen and (min-width: 40em) {
 	#nav 				{ padding-top: 0.3em }
@@ -182,6 +189,9 @@ a.link {
 a.link:hover {
 	transition: all 0.15s ease;
 	color: rgba(187,0,69,1);
+}
+a.link.active {
+	color: #111144;
 }
 a.btn {
 	position: relative;
