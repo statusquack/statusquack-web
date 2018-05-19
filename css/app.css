@@ -63,11 +63,7 @@ section {
 	width: 10em;
 }
 @media screen and (max-width: 390px) {
-	
-	#nav { padding-top: 0.4em; }
-	#nav a.active {
-		padding-bottom: 26px
-	}
+
 }
 @media screen and (min-width: 40em) {
 	.sq-logo img {
@@ -90,18 +86,17 @@ section {
  PEOPLE 
 - - - - - - - */
 #people img {
+	width: 4em;
 	border-radius: 100%;
 	-webkit-filter: grayscale(1);
 	margin-bottom: 0.5em;
 }
-#people img + p {
-	margin-left: -1em;
-	margin-right: -1em;
+#people .cell {
+	
 }
+
 @media screen and (max-width: 390px) {
 	#people .cell {
-		padding-left: 0.3em;
-		padding-right: 0.3em;
 	}
 }
 
@@ -109,7 +104,7 @@ section {
  FOOTER 
 - - - - - - - */
 #footer {
-	padding-bottom: 1em;
+	padding-bottom: 6em;
 }
 #footer .heart {
 	color:  rgba(187,0,69,1);
