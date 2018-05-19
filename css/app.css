@@ -7,14 +7,7 @@
 	padding-left: 1em;
 	padding-right: 1em;	
 }
-.white {
-	background-color: white;
-	margin-bottom: 0.2em;
-}
-.white:last-child {
-	margin-bottom: 0;
-}
-section.white {
+section {
 	padding-top: 3em;
 	padding-bottom: 3em;
 }
@@ -52,40 +45,34 @@ section.white {
 		padding-bottom: 25px
 	}
 
-.sq-brand {
+.sq-logo {
 	display: inline-block;
 	transform: scale(1, 1);
 	transition: all 0.15s ease;
 	padding-bottom: 0.6em;
 }
-.sq-brand:hover {
+.sq-logo:hover {
 	transform: scale(1.05, 1.05);
 	transition: all 0.15s ease;
 }
-.sq-brand:active {
+.sq-logo:active {
 	transform: scale(0.97, 0.97);
 	transition: all 0 ease;
 }
-.sq-symbol 		{ height: 3em; margin-right: .5em;}
-.sq-logo 			{ width: 5em; }
+.sq-logo img {
+	width: 10em;
+}
 @media screen and (max-width: 390px) {
-	.sq-brand .sq-logo {
-		position: absolute;
-		left: 2.2em;
-		top: 0.85em;
-		transform: scale(1.2, 1.2) rotate(-90deg);
-	}
+	
 	#nav { padding-top: 0.4em; }
 	#nav a.active {
 		padding-bottom: 26px
 	}
 }
 @media screen and (min-width: 40em) {
-	#nav 				{ padding-top: 0.3em }
-		#nav span { margin-left: 2%; margin-right: 2%;}
-	.sq-brand 	{ padding-bottom: 0.8em;}
-	.sq-symbol 	{ height: 3.75em; margin-right: .625em; }
-	.sq-logo 		{ width: 6.25em; }
+	.sq-logo img {
+		width: 12.5em;
+	}
 }
 
 
