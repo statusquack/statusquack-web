@@ -51,14 +51,14 @@ section {
 	transition: all 0.15s ease;
 	padding-bottom: 0.6em;
 }
-.sq-logo:hover {
+/*.sq-logo:hover {
 	transform: scale(1.05, 1.05);
 	transition: all 0.15s ease;
 }
 .sq-logo:active {
 	transform: scale(0.97, 0.97);
 	transition: all 0 ease;
-}
+}*/
 .sq-logo img {
 	width: 10em;
 }
@@ -80,6 +80,32 @@ section {
 	
 }
 #claim h2 { color: rgba(0,187,255,1); }
+
+
+
+/* - - - - - - -
+ WE BUILT 
+- - - - - - - */
+.chip {
+	display: inline-block;
+	margin-bottom: 0.2em;
+	background-color: rgba(17,17,68,.1);
+	padding: .2em .5em;
+	border-radius: 2px;
+}
+.chin .brand {
+	
+	
+}
+.chip .desc {
+	margin-top: -.2em;
+	font-size: 0.6em;
+	display: block;
+	font-weight: 400;
+}
+.chip {
+	clear: both;
+}
 
 
 /* - - - - - - -
@@ -153,8 +179,7 @@ p.small 			{ font-size: 13px; }
 	ol 					{ margin-left: 0rem; }
 }
 @media screen and (max-width: 390px) {
-	h1 { font-size: 36px; }
-	#nav { font-size: 18px; }
+	
 }
 
 
