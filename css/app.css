@@ -11,6 +11,12 @@ section {
 	padding-top: 3em;
 	padding-bottom: 3em;
 }
+#claim {
+	padding-top: 6em;
+}
+#footer {
+	padding-bottom: 6em;
+}
 .sq-invisible {
 	color: white; margin-bottom: -.3em; line-height: 1;
 }
@@ -75,11 +81,44 @@ section {
 /* - - - - - - -
  CLAIM 
 - - - - - - - */
-#claim {
-	
+#claim h1 {
+		/*color: #BB0044;*/
+}
+
+/* - - - - - - -
+ TRUSTED BY
+- - - - - - - */
+#trusted-by {
 	
 }
-#claim h2 { color: rgba(0,187,255,1); }
+#trusted-by .logo-group {
+	
+}
+#trusted-by .logo-group .cell {
+	padding: 1em;
+	opacity: 0.5;
+
+}
+.logo-group .cell {
+	text-align: center;
+	width: auto;
+	
+}
+.logo-group .cell img {
+	width: 4em;
+}
+.logo-group .logo-csob img  {
+	height: 2.5em;
+}
+.logo-group .logo-jack img {
+	width: 4.5em;
+}
+.logo-group .logo-fundlift img {
+	width: 5em;
+}
+.logo-group .logo-kontentino img  {
+	width: 6em;
+}
 
 
 
@@ -110,31 +149,29 @@ section {
 
 
 /* - - - - - - -
- PEOPLE 
+ TEAM 
 - - - - - - - */
-#people img {
+#team img {
 	width: 4em;
 	border-radius: 100%;
 	-webkit-filter: grayscale(1);
 	margin-bottom: 0.5em;
 }
-#people .cell {
+#team .cell {
 	margin-bottom: 2em;
 }
 
 @media screen and (max-width: 39.9375em) and (min-width: 360px) {
-	#people img {float: left;}
-	#people .cell h4 { margin-left: 5rem;}
-	#people .cell p { margin-left: 5rem;}
+	#team img {float: left;}
+	#team .person h4 { margin-left: 5rem;}
+	#team .person p { margin-left: 5rem;}
 }
 
 
 /* - - - - - - -
  FOOTER 
 - - - - - - - */
-#footer {
-	padding-bottom: 6em;
-}
+
 #footer .heart {
 	color:  rgba(187,0,69,1);
 	font-size: 80%;
