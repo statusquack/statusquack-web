@@ -11,6 +11,11 @@ section {
 	padding-top: 3em;
 	padding-bottom: 3em;
 }
+.block h2  {
+	border-top: 0.25em solid #00BBFF;
+	padding-top: .3em;
+	display: inline-block;
+}
 #claim {
 	padding-top: 6em;
 }
@@ -125,9 +130,10 @@ section {
 /* - - - - - - -
  WORK
 - - - - - - - */
+#work h4.subtle { margin-bottom: 2em; }
 
 .project {
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 }
 .project h3 {
 	position: relative;
@@ -273,6 +279,7 @@ a.btn {
 	background-color: rgba(255,86,34,1);
 	border-radius: 2px;
 	font-weight: 700;
+	margin-bottom: 0.2em;
 }
 a.btn:hover {
 	transition: all 0.3s ease;
