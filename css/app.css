@@ -149,22 +149,22 @@ section {
 
 
 /* - - - - - - -
- PEOPLE 
+ TEAM 
 - - - - - - - */
-#people img {
+#team img {
 	width: 4em;
 	border-radius: 100%;
 	-webkit-filter: grayscale(1);
 	margin-bottom: 0.5em;
 }
-#people .cell {
+#team .cell {
 	margin-bottom: 2em;
 }
 
 @media screen and (max-width: 39.9375em) and (min-width: 360px) {
-	#people img {float: left;}
-	#people .cell h4 { margin-left: 5rem;}
-	#people .cell p { margin-left: 5rem;}
+	#team img {float: left;}
+	#team .person h4 { margin-left: 5rem;}
+	#team .person p { margin-left: 5rem;}
 }
 
 
