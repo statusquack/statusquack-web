@@ -12,7 +12,9 @@ section {
 	padding-bottom: 3em;
 }
 .block h2  {
-	border-top: 0.25em solid #00BBFF;
+	border-top-width: 0.25em;
+	border-top-style: solid;
+	border-top-color: #00BBFF;
 	padding-top: .3em;
 	display: inline-block;
 }
@@ -37,6 +39,34 @@ section {
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	.grid-container {	}	
+}
+h3.with-number {
+	position: relative;
+}
+h3.with-number .number {
+	display: inline-block;
+	height: 1.5em;
+	width: 1.5em;
+	position: relative;
+	top: -0.1em;
+	margin-right: 0.5em;
+	
+	border-radius: 3em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.5em;
+	font-size: 0.6em;
+	color: white;
+	
+	background-color: rgba(17,17,68,.25);
+	
+}
+@media screen and (min-width: 40em) {
+	h3.with-number .number {
+		position: absolute;
+		top: .5em;
+		left: -2em;
+	}
 }
 
 
@@ -135,31 +165,7 @@ section {
 .project {
 	margin-bottom: 3em;
 }
-.project h3 {
-	position: relative;
-}
-.project .number {
-	display: block;
-	height: 1.5em;
-	width: 1.5em;
-	
-	border-radius: 3em;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 1.5em;
-	font-size: 0.6em;
-	color: white;
-	
-	background-color: rgba(17,17,68,.25);
-	
-}
-@media screen and (min-width: 40em) {
-	.project .number {
-		position: absolute;
-		top: .5em;
-		left: -2em;
-	}
-}
+
 
 
 .chip {
