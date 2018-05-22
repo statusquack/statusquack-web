@@ -183,6 +183,16 @@ h3.with-number .number {
 	clear: both;
 }
 
+/* - - - - - - -
+ HOW WE WORK 
+- - - - - - - */
+
+#how-we-work .part .i-wrap {
+	color: #00BBFF;
+}
+#how-we-work  h3 {
+	
+}
 
 /* - - - - - - -
  TEAM 
@@ -193,9 +203,6 @@ h3.with-number .number {
 	-webkit-filter: grayscale(1);
 	margin-bottom: 0.5em;
 }
-#team .cell {
-	margin-bottom: 2em;
-}
 
 @media screen and (max-width: 39.9375em) and (min-width: 360px) {
 	#team img {float: left;}
@@ -203,21 +210,15 @@ h3.with-number .number {
 	#team .person p { margin-left: 5rem;}
 }
 
+/* - - - - - - -
+ CONTACT 
+- - - - - - - */
+
+
 
 /* - - - - - - -
  FOOTER 
 - - - - - - - */
-
-#footer .heart {
-	color:  rgba(187,0,69,1);
-	font-size: 80%;
-}
-
-/* Medium and up */
-@media screen and (min-width: 40em) {
-
-
-}
 
 
 /* - - - - - - -
