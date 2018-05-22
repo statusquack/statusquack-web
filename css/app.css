@@ -11,6 +11,9 @@ section {
 	padding-top: 4em;
 	padding-bottom: 4em;
 }
+.part {
+	margin-bottom: 3em;
+}
 .block h2  {
 	border-top-width: 0.25em;
 	border-top-style: solid;
@@ -30,10 +33,18 @@ section {
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	.grid-container {	}	
+	section {
+		padding-top: 5em;
+		padding-bottom: 5em;
+	}
+	.part {
+		margin-bottom: 3.75em;
+	}
+	#contact {
+		padding-bottom: 10em;
+	}
 }
-.part {
-	margin-bottom: 3em;
-}
+
 h2 + h4.subtle {
 	margin-bottom: 3em;
 }
@@ -273,8 +284,8 @@ a.btn {
 	padding: 0.5em .7em 0.55em;
 	color: #fff; 
 	background-color: rgba(255,86,34,1);
-	border-radius: 2px;
-	font-weight: 700;
+	border-radius: 3px;
+	font-weight: 400;
 	margin-bottom: 0.2em;
 }
 a.btn:hover {
@@ -296,10 +307,11 @@ a.btn .fa-external-link-square {
 	
 }
 a.btn.lite {
+	padding: calc(0.5em - 2px) calc(0.7em - 2px) calc(0.55em - 2px);
 	background-color: inherit;
 	color: rgba(255,86,34,1);
 	border: 2px solid rgba(255,86,34,.5);
-	border-radius: 4px;
+	border-radius: 3px;
 }
 a.btn.lite:hover {
 	color: rgba(187,0,69,1);
