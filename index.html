@@ -47,15 +47,46 @@
       </div>
 		</div><!-- grid-container -->
 		
+
+<script>
+function myFunction() {
+	var text = [
+		"We will chatbot the machine learning into the blockchain for you",
+		"We are the butter for the innovation bread",
+		"We do innovation 2.0",
+		"We think out of the Schrodinger box",
+		"Future award design studios",
+		"Build, test, throw away",
+		"Third paragraph text",
+		"We are making innovation great again!",
+		"We go boldly go where no-one has failed before",
+		"We bring adventure to your projects",
+		"We will design the next thing your boss will approve",
+		"We build products for 22. Century (edited)",
+		"We put shipping into relationship"
+	];
+	document.getElementById("select").onclick = function() {
+		document.getElementById("result").innerHTML = text[Math.floor(Math.random() * text.length)];
+	}   
+}
+</script>
 		
 		<section class="" id="claim">
 		<div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-8 large-offset-2 medium-10 medium-offset-1 cell">
-          <h1>We employ new trends to work for you</h1>
-					<div class="text-center">
-						<a class="btn lite" href="#contact">Skip to Contact</a>
-					</div>
+          <h1 id="result">We employ new trends to work for you</h1>
+					<p class="text-right small">
+						<a class="btn lite" onclick="myFunction()" id="select" value="assad">Not cool enought</a>
+					</p>
+					
+
+					
+					
+					
+					<p class="text-center small">
+						<a class="link" href="#contact">Skip to Contact</a>
+					</p>
         </div>
       </div>
     </div><!-- grid-container -->

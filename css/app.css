@@ -124,7 +124,11 @@ h3.with-number .number {
 /* - - - - - - -
  CLAIM 
 - - - - - - - */
-#claim h1 { opacity: 0.85; }
+#claim h1 { 
+	opacity: 0.85; 
+	-webkit-transition: width 2s; /* Safari */
+   transition: width 2s;
+}
 #claim .text-center { margin-top: 2em;}
 
 /* - - - - - - -
