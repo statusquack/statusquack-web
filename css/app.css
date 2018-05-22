@@ -18,11 +18,8 @@ section {
 	padding-top: .3em;
 	display: inline-block;
 }
-#claim {
-	padding-top: 4em;
-}
-#footer {
-	padding-bottom: 4em;
+#contact {
+	padding-bottom: 8em;
 }
 .sq-invisible {
 	color: white; margin-bottom: -.3em; line-height: 1;
