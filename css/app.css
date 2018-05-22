@@ -34,6 +34,9 @@ section {
 @media screen and (min-width: 40em) {
 	.grid-container {	}	
 }
+.part {
+	margin-bottom: 3em;
+}
 h2 + h4.subtle {
 	margin-bottom: 3em;
 }
@@ -157,13 +160,6 @@ h3.with-number .number {
 /* - - - - - - -
  WORK
 - - - - - - - */
-#work h4.subtle { margin-bottom: 2em; }
-
-.project {
-	margin-bottom: 3em;
-}
-
-
 
 .chip {
 	display: inline-block;
@@ -299,6 +295,8 @@ a.btn:active {
 a.btn .fa-external-link-square {
 	position: relative;
 	top: -0.3em;
+	left: .4em;
+	
 }
 a.btn.lite {
 	
