@@ -214,13 +214,24 @@ h3.with-number .number {
 	-webkit-filter: grayscale(1);
 	margin-bottom: 0.5em;
 }
-
+.member-chip {
+	width: 1em;
+	border-radius: 100%;
+	-webkit-filter: grayscale(1);
+	margin-bottom: 0.5em;
+	display: inline-block;
+	margin-top: -.5em;
+	margin-bottom: -.3em;
+	
+}
 @media screen and (max-width: 39.9375em) and (min-width: 360px) {
 	#team img {float: left;}
 	#team .person h4 { margin-left: 5rem;}
 	#team .person p { margin-left: 5rem;}
 }
-
+@media screen and (min-width: 40em) {
+	#team img { width: 5em; }
+}
 /* - - - - - - -
  CONTACT 
 - - - - - - - */
