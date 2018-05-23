@@ -111,9 +111,6 @@ h3.with-number .number {
 .sq-logo img {
 	width: 10em;
 }
-@media screen and (max-width: 390px) {
-
-}
 @media screen and (min-width: 40em) {
 	.sq-logo img {
 		width: 12.5em;
@@ -247,6 +244,31 @@ h3.with-number .number {
  FOOTER 
 - - - - - - - */
 
+
+/* - - - - - - -
+ BUSINESS CARD
+- - - - - - - */
+.business-card .grid-y {
+	height: 100vh;
+}
+.business-card .sq-logo img {
+	width: 6em;
+} 
+.business-card .position {
+	position: relative;
+	top: -0.85em;
+}
+.business-card img.qrcode {
+	
+	display: inline-block;
+	width: 30vh
+}
+@media screen and (min-width: 40em) {
+	.business-card .sq-logo img {
+		width: 7.5em;
+		
+	}
+}
 
 /* - - - - - - -
  FONTS 
