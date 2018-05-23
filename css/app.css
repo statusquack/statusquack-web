@@ -256,12 +256,21 @@ h3.with-number .number {
 } 
 .business-card .position {
 	position: relative;
-	top: -0.85em;
+	top: -0.5em;
+}
+.business-card h4 {
+	margin: 0;
+}
+.business-card img.photo {
+	width: 15vh;
+	border-radius: 10em;
+	float: right;
 }
 .business-card img.qrcode {
 	
-	display: inline-block;
-	width: 30vh
+	display: block;
+	vertical-align: bottom;
+	width: 25vh;
 }
 @media screen and (min-width: 40em) {
 	.business-card .sq-logo img {
