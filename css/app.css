@@ -273,8 +273,8 @@ h3.with-number .number {
 	display: block;
 	vertical-align: bottom;
 	width: 25vh;
-	position: absolute;
-	bottom: 1em;
+
+
 }
 @media screen and (min-width: 40em) {
 	.business-card .sq-logo img {
