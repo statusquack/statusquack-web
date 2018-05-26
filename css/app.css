@@ -148,19 +148,19 @@ h3.with-number .number {
 	
 }
 .logo-group .cell img {
-	width: 4em;
-}
-.logo-group .logo-csob img  {
-	height: 2.5em;
-}
-.logo-group .logo-jack img {
-	width: 4.5em;
-}
-.logo-group .logo-fundlift img {
 	width: 5em;
 }
-.logo-group .logo-kontentino img  {
+.logo-group .logo-csob img  {
+	height: 3em;
+}
+.logo-group .logo-jack img {
+	width: 5em;
+}
+.logo-group .logo-fundlift img {
 	width: 6em;
+}
+.logo-group .logo-kontentino img  {
+	width: 7em;
 }
 
 
