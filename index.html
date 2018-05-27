@@ -340,7 +340,7 @@
 		// I call it LSD (Logic, State & Display) and it has no connection with MVC whatsoever
 
 		// Logic
-		var ContentRoll = function(posibilities) {
+		var UniqueRoll = function(posibilities) {
 			this.posibilities = posibilities;
 			this.posibilitiesCount = posibilities.length;
 			this.lastIndexes = new Array(this.posibilitiesCount - 1);
@@ -362,7 +362,7 @@
 		};
 
 		// State
-		var contentRollInstance = new ContentRoll([
+		var uniqueRollInstance = new UniqueRoll([
 			'We will chatbot the machine learning into the blockchain for you',
 			'We are the butter for the innovation bread',
 			'We do innovation 2.0',
@@ -382,7 +382,7 @@
 		var resultElement = document.getElementById('result');
 
 		var rollHandler = function rollHandler() {
-			resultElement.textContent = contentRollInstance.roll();
+			resultElement.textContent = uniqueRollInstance.roll();
 		}
 
 		rollElement.addEventListener('click', rollHandler);
