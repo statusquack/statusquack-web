@@ -60,20 +60,20 @@ h3.with-number .number {
 	height: 1.5em;
 	width: 1.5em;
 	position: relative;
-	top: -0.1em;
+	top: -0.15em;
 	margin-right: 0.5em;
 	border-radius: 3em;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 1.5em;
-	font-size: 0.6em;
+	font-size: 0.7em;
 	color: white;
 	background-color: rgba(17,17,68,.25);
 }
 @media screen and (min-width: 40em) {
 	h3.with-number .number {
 		position: absolute;
-		top: .5em;
+		top: .375em;
 		left: -2em;
 	}
 }
@@ -369,9 +369,10 @@ a.btn:active {
 	transition: all 0.3s ease;
 }
 a.btn .fa-external-link-square {
-	position: relative;
-	top: -0.45em;
-	left: .4em;
+	position: absolute;
+	top: -0.3em;
+	right: -0.3em;
+	background-color: white;
 	
 }
 a.btn.lite {
