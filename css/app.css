@@ -94,22 +94,15 @@ p.quote {
 	height: 1em;
 	
 }
-#nav a { }
 #nav span { opacity: .25; }
-
 #nav a.active {
-	border-bottom: 0.15em solid #111144;
+	/*border-bottom: 0.15em solid #111144;*/
 }
-
 .sq-logo {
 	display: inline-block;
-	transform: scale(1, 1);
-	transition: all 0.15s ease;
-	padding-bottom: 0.6em;
 }
 .sq-logo img {
-	height: 48px;
-	
+	height: 48px;	
 }
 @media screen and (max-width: 32em) {
 	.sq-logo-cell {
@@ -316,9 +309,7 @@ p.quote {
 a, p { line-height: 1.5; font-family: 'Open Sans', sans-serif; }
 p { color: rgba(17,17,68,.7); }
 p b { color: rgba(17,17,68,1); }
-h1, h2, 
-#nav a,
-#nav { font-family: 'bungee', sans-serif; line-height: 1.25;}
+h1, h2, #nav a, #nav { font-family: 'bungee', sans-serif; line-height: 1.25;}
 h3, h4 { font-family: 'Open Sans', sans-serif; font-weight: 700; line-height: 1.5;}
 h1, h2, h3, h4 { color: #111144; }
 h2 { margin-bottom: 0.5em;}
