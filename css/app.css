@@ -14,6 +14,10 @@ section {
 .part {
 	margin-bottom: 3em;
 }
+.part h3,
+.part p {
+	padding-right: 1em;
+}
 .block h2  {
 	border-top-width: 0.25em;
 	border-top-style: solid;
@@ -58,16 +62,13 @@ h3.with-number .number {
 	position: relative;
 	top: -0.1em;
 	margin-right: 0.5em;
-	
 	border-radius: 3em;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 1.5em;
 	font-size: 0.6em;
 	color: white;
-	
 	background-color: rgba(17,17,68,.25);
-	
 }
 @media screen and (min-width: 40em) {
 	h3.with-number .number {
@@ -102,17 +103,6 @@ p.quote {
 	transition: all 0.15s ease;
 	padding-bottom: 0.6em;
 }
-/*.sq-logo:hover {
-	transform: scale(1.05, 1.05);
-	transition: all 0.15s ease;
-}
-.sq-logo:active {
-	transform: scale(0.97, 0.97);
-	transition: all 0 ease;
-}*/
-.sq-logo {
-	
-}
 .sq-logo img {
 	width: 10em;
 	
@@ -128,6 +118,7 @@ p.quote {
 /* - - - - - - -
  CLAIM 
 - - - - - - - */
+
 #claim h1 { 
 	text-align: center;
 	opacity: 0.85; 
@@ -145,28 +136,19 @@ p.quote {
 	margin-top: -4em;
 	margin-bottom: 2em;
 }
-@media screen and (min-width: 40em) {
-	
-}
+
 
 /* - - - - - - -
  TRUSTED BY
 - - - - - - - */
-#trusted-by {
-	
-}
-#trusted-by .logo-group {
-	
-}
+
 #trusted-by .logo-group .cell {
 	padding: 1em;
 	opacity: 0.5;
-
 }
 .logo-group .cell {
 	text-align: center;
 	width: auto;
-	
 }
 .logo-group .cell img {
 	width: 5em;
@@ -179,7 +161,7 @@ p.quote {
 }
 @media screen and (min-width: 40em) {
 	.logo-group .cell img {
-	width: 6.5em;
+		width: 6.5em;
 	}
 	.logo-group .logo-wider img {
 		width: 8em;
@@ -188,11 +170,17 @@ p.quote {
 		width: 9.5em;
 	}
 }
+@media screen and (min-width: 75em) {
+	#trusted-by .logo-group .cell {
+		padding: 1em 3em;
+	}
+}
 
 
 /* - - - - - - -
  WORK
 - - - - - - - */
+
 #work h4.subsection {
 	background-color: #00BBFF;
 	display: inline-block;
@@ -213,15 +201,16 @@ p.quote {
 	color: #00BBFF;
 	display: block;
 	margin-bottom: 1em;
-	
 }
 #how-we-work  h3 {
 	
 }
 
+
 /* - - - - - - -
  TEAM 
 - - - - - - - */
+
 #team img {
 	width: 4em;
 	border-radius: 100%;
@@ -236,7 +225,6 @@ p.quote {
 	display: inline-block;
 	margin-top: -.5em;
 	margin-bottom: -.3em;
-	
 }
 @media screen and (max-width: 39.9375em) and (min-width: 360px) {
 	#team img {float: left;}
@@ -255,7 +243,6 @@ p.quote {
 	color: #00BBFF;
 	display: block;
 	margin-bottom: 1em;
-	
 }
 
 /* - - - - - - -
@@ -295,23 +282,18 @@ p.quote {
 	float: right;
 }
 .business-card img.qrcode {
-	
 	display: block;
 	vertical-align: bottom;
 	width: 25vh;
-
-
 }
 @media screen and (min-width: 40em) {
 	.business-card .sq-logo img {
-		width: 7.5em;
-		
+		width: 7.5em;	
 	}
 }
 @media screen and (max-width: 360px) {
 	.business-card h2 {
-		font-size: 27px;
-		
+		font-size: 27px;	
 	}
 }
 
@@ -367,7 +349,7 @@ a.link.active {
 a.btn {
 	position: relative;
 	display: inline-block;
-	padding: 0.5em .7em 0.55em;
+	padding: 0.5em .7em;
 	color: #fff; 
 	background-color: rgba(255,86,34,1);
 	border-radius: 3px;
