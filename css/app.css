@@ -127,6 +127,9 @@ h3.with-number .number {
 	-webkit-transition: width 2s; /* Safari */
    transition: width 2s;
 }
+#claim p.text-center {
+	margin-top: 1em;
+}
 
 #claim .illustration {
 	width: 15em;
