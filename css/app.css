@@ -122,11 +122,22 @@ h3.with-number .number {
  CLAIM 
 - - - - - - - */
 #claim h1 { 
+	text-align: center
 	opacity: 0.85; 
 	-webkit-transition: width 2s; /* Safari */
    transition: width 2s;
 }
-#claim .text-center { margin-top: 2em;}
+
+#claim .illustration {
+	width: 15em;
+	margin: auto;
+	display: block;
+	margin-top: -3em;
+	margin-bottom: 2em;
+}
+@media screen and (min-width: 40em) {
+	
+}
 
 /* - - - - - - -
  TRUSTED BY
@@ -199,6 +210,13 @@ h3.with-number .number {
 /* - - - - - - -
  WORK
 - - - - - - - */
+#work h4.subsection {
+	background-color: #00BBFF;
+	display: inline-block;
+	padding: .15em .4em;
+	color: white;
+	border-radius: 3px;
+}
 #work .illustration {
 	width: 14em;
 }
