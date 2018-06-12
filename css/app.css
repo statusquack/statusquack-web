@@ -177,6 +177,17 @@ p.quote {
 .logo-group .logo-widest img {
 	width: 7em;
 }
+@media screen and (min-width: 40em) {
+	.logo-group .cell img {
+	width: 6.5em;
+	}
+	.logo-group .logo-wider img {
+		width: 8em;
+	}
+	.logo-group .logo-widest img {
+		width: 9.5em;
+	}
+}
 
 
 /* - - - - - - -
