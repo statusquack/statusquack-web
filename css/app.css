@@ -88,14 +88,15 @@ p.quote {
 #nav {
 	text-align: right;
 	padding-top: .3em;
-	font-family: 'Open Sans', sans-serif; 
-	font-weight: 700;  	
+	height: 1em;
+	
 }
-	#nav span { opacity: .25; }
-	#nav a.active {
-		border-bottom: 0.15em solid #111144;
-		padding-bottom: 25px
-	}
+#nav a { }
+#nav span { opacity: .25; }
+
+#nav a.active {
+	border-bottom: 0.15em solid #111144;
+}
 
 .sq-logo {
 	display: inline-block;
@@ -104,14 +105,20 @@ p.quote {
 	padding-bottom: 0.6em;
 }
 .sq-logo img {
-	width: 10em;
+	height: 48px;
 	
-	clip: rect(0px,100px,100px,0px);
+}
+@media screen and (max-width: 32em) {
+	.sq-logo-cell {
+		margin-right: -100px;
+	}
+	.sq-logo { 
+		clip-path: inset(0% 70% 0% 0%);
+	}
 }
 @media screen and (min-width: 40em) {
-	.sq-logo img {
-		width: 12.5em;
-	}
+	.sq-logo img { height: 60px; }
+	#nav span { margin-left: 2%; margin-right: 2%;}
 }
 
 
@@ -305,8 +312,11 @@ p.quote {
 a, p { line-height: 1.5; font-family: 'Open Sans', sans-serif; }
 p { color: rgba(17,17,68,.7); }
 p b { color: rgba(17,17,68,1); }
-h1, h2 { font-family: 'bungee', 'Teko', sans-serif; /*font-weight: 700;*/ line-height: 1.25; color: #111144;}
-h3, h4 { font-family: 'Open Sans', sans-serif; font-weight: 700; color: #111144; line-height: 1.5;}
+h1, h2, 
+#nav a,
+#nav { font-family: 'bungee', sans-serif; line-height: 1.25;}
+h3, h4 { font-family: 'Open Sans', sans-serif; font-weight: 700; line-height: 1.5;}
+h1, h2, h3, h4 { color: #111144; }
 h2 { margin-bottom: 0.5em;}
 
 h1.subtle, h2.subtle, h3.subtle, h4.subtle { font-weight: 400; }
@@ -314,7 +324,7 @@ h1 .subtle, h2 .subtle, h3 .subtle, h4 .subtle { font-weight: 400; }
 
 p				 			{ font-size: 16px; } 
 h4, #nav  		{ font-size: 20px; }
-h3	 					{ font-size: 25px; }
+h3 						{ font-size: 25px; }
 h2 						{ font-size: 31px; }
 h1 						{ font-size: 39px; }
 p.small 			{ font-size: 13px; }
@@ -322,7 +332,7 @@ p.small 			{ font-size: 13px; }
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	p		 				{ font-size: 20px; }
-	h4,#nav 		{ font-size: 25px; }
+	h4, #nav 		{ font-size: 25px; }
 	h3 					{ font-size: 31px; }
 	h2 					{ font-size: 39px; }
 	h1 					{ font-size: 49px; }
