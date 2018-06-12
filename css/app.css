@@ -312,7 +312,7 @@ p.quote {
  FONTS 
 - - - - - - - */
 
-.small-caps {	}
+.small-caps, .small {	text-transform: uppercase; letter-spacing: 0.05em; }
 a, p { line-height: 1.5; font-family: 'Open Sans', sans-serif; }
 p { color: rgba(17,17,68,.7); }
 p b { color: rgba(17,17,68,1); }
