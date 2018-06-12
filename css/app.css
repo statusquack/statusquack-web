@@ -268,8 +268,8 @@ p.quote {
 .business-card .grid-y {
 	height: 100vh;
 }
-.business-card .sq-logo img {
-	width: 6em;
+.business-card .sq-logo-card img {
+	height: 48px;
 	margin-top: 0.5em;
 } 
 .business-card .position {
@@ -291,8 +291,8 @@ p.quote {
 	width: 25vh;
 }
 @media screen and (min-width: 40em) {
-	.business-card .sq-logo img {
-		width: 7.5em;	
+	.business-card .sq-logo-card img {
+		height: 60px;	
 	}
 }
 @media screen and (max-width: 360px) {
