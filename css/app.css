@@ -112,7 +112,8 @@ p.quote {
 	.sq-logo-cell {
 		margin-right: -100px;
 	}
-	.sq-logo { 
+	.sq-logo, .sq-logo img, .sq-logo a { 
+		-webkit-clip-path: inset(0% 70% 0% 0%);
 		clip-path: inset(0% 70% 0% 0%);
 	}
 }
