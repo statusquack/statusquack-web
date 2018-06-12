@@ -122,7 +122,7 @@ h3.with-number .number {
  CLAIM 
 - - - - - - - */
 #claim h1 { 
-	text-align: center
+	text-align: center;
 	opacity: 0.85; 
 	-webkit-transition: width 2s; /* Safari */
    transition: width 2s;
