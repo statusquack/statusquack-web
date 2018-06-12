@@ -180,32 +180,6 @@ p.quote {
 
 
 /* - - - - - - -
- CHIP
-- - - - - - - */
-
-.chip {
-	display: inline-block;
-	margin-bottom: 0.5em; margin-right: 0.3em;
-	background-color: rgba(17,17,68,.1);
-	padding: .1em .5em;
-	border-radius: 2px;
-}
-.chin .brand {
-	
-	
-}
-.chip .desc {
-	margin-top: -.2em;
-	font-size: 0.6em;
-	display: block;
-	font-weight: 400;
-	margin-bottom: 0.2em;
-}
-.chip {
-	clear: both;
-}
-
-/* - - - - - - -
  WORK
 - - - - - - - */
 #work h4.subsection {
@@ -391,7 +365,7 @@ a.btn:active {
 }
 a.btn .fa-external-link-square {
 	position: relative;
-	top: -0.3em;
+	top: -0.45em;
 	left: .4em;
 	
 }
