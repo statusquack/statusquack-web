@@ -113,61 +113,6 @@
 	<script src="js/vendor/what-input.js"></script>
 	<script src="js/vendor/foundation.js"></script>
 	<script src="js/app.js"></script>
-	<script>
-	(function() {
-
-		// New software architecture I developed.
-		// I call it LSD (Logic, State & Display) and it has no connection with MVC whatsoever
-
-		// Logic
-		var UniqueRoll = function(posibilities) {
-			this.posibilities = posibilities;
-			this.posibilitiesCount = posibilities.length;
-			this.lastIndexes = new Array(this.posibilitiesCount - 1);
-
-			this.generateUniqueRandomIndex = function generateUniqueRandomIndex() {
-				var generatedIndex = Math.floor(Math.random() * this.posibilitiesCount);
-				if (this.lastIndexes.indexOf(generatedIndex) !== -1) {
-					generatedIndex = this.generateUniqueRandomIndex();
-				}
-				return generatedIndex;
-			};
-
-			this.roll = function roll() {
-				var newIndex = this.generateUniqueRandomIndex();
-				this.lastIndexes.shift();
-				this.lastIndexes.push(newIndex);
-				return this.posibilities[newIndex];
-			};
-		};
-
-		// State
-		var uniqueRollInstance = new UniqueRoll([
-			'We will chatbot the machine learning into the blockchain for you',
-			'We are the butter for the innovation bread',
-			'We do innovation 2.0',
-			'We think out of the Schrodinger box',
-			'Future award design studio',
-			'Build, test, throw away',
-			'We are making innovation great again!',
-			'We boldly go where no one has failed before',
-			'We bring adventure to your projects',
-			'We will design the next thing your boss will approve',
-			'We build products for the 22nd century',
-			'We will put shipping into our relationship'
-		]);
-
-		// Display
-		var rollElement = document.getElementById('roll');
-		var resultElement = document.getElementById('result');
-
-		var rollHandler = function rollHandler() {
-			resultElement.textContent = uniqueRollInstance.roll();
-		}
-
-		rollElement.addEventListener('click', rollHandler);
-
-	})();
-	</script>
+	
   </body>
 </html>

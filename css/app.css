@@ -14,8 +14,11 @@ section {
 .part {
 	margin-bottom: 3em;
 }
-.part h3,
-.part p {
+h3.with-number,
+.with-number + p,
+.with-number + p + h4,
+.with-number + p + h4 + h4,
+.with-number + p + h4 + h4 + h4 {
 	padding-right: 1em;
 }
 .block h2  {
