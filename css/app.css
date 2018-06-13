@@ -374,7 +374,7 @@ a.btn:active {
 	transition: all 0.3s ease;
 }
 a.btn .fa-external-link-square,
-a.btn .fa-clone,{
+a.btn .fa-clone {
 	position: absolute;
 	top: -0.3em;
 	right: -0.3em;
