@@ -15,7 +15,7 @@
     <title>Status Quack</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Teko:700&amp;subset=latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Teko:700&amp;subset=latin-ext" rel="stylesheet">
 		<script defer src="js/fontawesome-all.js"></script>
 		<link rel="stylesheet" href="https://use.typekit.net/bgw0wsd.css">
   </head>
@@ -32,15 +32,25 @@
 		<div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-					<h3 class="sq-invisible">Status Quack</h3>  <!-- I think is fair -->
+					<h3 class="sq-invisible">Status Quack</h3>  <!-- I think it is fair -->
 					<div class="grid-x ">
-						<div class="cell shrink">
-							<a class="sq-logo" href="/"><img class="" alt="Status Quack logo" src="img/status-quack-logo-horizontal.svg"></a>
+						<div class="cell shrink sq-logo-cell">
+							<a class="sq-logo" href="/"><img alt="Status Quack logo" src="img/status-quack-logo-horizontal.svg"></a>
 							<!--
 							Looking for our colors?
-							brick: #FF5522, ocean: #00BBFF,
-							crimson: #BB0044, space blue: #111144
+							brick: #FF5522,
+							ocean: #00BBFF,
+							crimson: #BB0044,
+							space blue: #111144
 							-->
+						</div>
+
+						<div class="cell auto " id="nav">
+							<div class="nav-group">
+								<a class="link active" href="index.html">Work</a> <span>&middot;</span>
+								<a class="link" href="about.html">About</a> <span>&middot;</span>
+								<a class="link" href="contact.html">Contact</a>
+							</div>
 						</div>
 					</div>
         </div>
@@ -51,18 +61,16 @@
 		<div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-10 large-offset-1 medium-10 medium-offset-1 cell">
+					<img src="img/illustrations/status-quack.png" class="illustration">
           <h1 id="result">We employ new trends to work for you</h1>
 					<p class="text-center">
-						<a class="btn lite" id="roll" value="assad">Not cool enough? <i class="far fa-dice"></i></a>
+						<a class="btn lite" id="roll" value="">Not cool enough? <i class="far fa-dice"></i></a>
 					</p>
-
-
-
-
-
+<!--
 					<p class="text-center small">
-						<a class="link" href="#contact">Skip to Contact <i class="fal fa-long-arrow-down"></i></a>
+						<a class="link" href="#contact">Skip to Contact</a>
 					</p>
+-->
         </div>
       </div>
     </div><!-- grid-container -->
@@ -73,20 +81,18 @@
       <div class="grid-x grid-padding-x">
         <div class="large-10 large-offset-1 medium-10 medium-offset-1 cell">
           <p class="subtle text-center small">Trusted by</p>
-					<div class="grid-x grid-padding-x small-up-3 medium-up-4 large-up-7 align-spaced align-middle logo-group">
+					<div class="grid-x grid-padding-x small-up-3 medium-up-4 large-up-4 align-spaced align-middle logo-group">
 
-<!--
-						<div class="cell logo-csob">
-							<img src="img/logos/csob-logo.svg">
+						<div class="cell ">
+							<img src="img/logos/rekola-logo.png">
 						</div>
--->
-						<div class="cell logo-fundlift">
+						<div class="cell logo-wider">
 							<img src="img/logos/fundlift-logo.svg">
 						</div>
-						<div class="cell logo-jack">
+						<div class="cell ">
 							<img src="img/logos/jack-logo.svg">
 						</div>
-						<div class="cell logo-kontentino">
+						<div class="cell logo-widest">
 							<img src="img/logos/kontentino-logo.svg">
 						</div>
 						<div class="cell">
@@ -97,6 +103,9 @@
 						</div>
 						<div class="cell">
 							<img src="img/logos/bileto-logo.svg">
+						</div>
+            <div class="cell">
+							<img src="img/logos/loono-logo.svg">
 						</div>
 					</div>
 
@@ -116,57 +125,66 @@
 					<h2>Work</h2>
 					<h4 class="subtle">Selected case studies by industries:</h4>
 
-					<h4>SaaS</h4>
+					<h4 class="subsection">SaaS</h4>
 
 					<div class="grid-x grid-padding-x">
 						<div class="small-12 medium-6 cell part">
+							<img class="illustration" src="img/illustrations/haidy.png">
 							<h3 class="with-number"><span class="number">A</span>Haidy</h3>
-							<p>We designed new take of the Android and iOS apps for a Home Automation company. Our goal was that the user is always in a direct control of their smart home.</p>
+							<p>We designed new take on the Android and iOS apps for a Home Automation company. Our goal was that the user is always in a direct control of their smart home.</p>
 
 						</div>
 						<div class="small-12 medium-6 cell part">
+							<img class="illustration" src="img/illustrations/valossa.png">
 							<h3 class="with-number"><span class="number">B</span>Valossa</h3>
-							<p>We redesigned the web portal, which led us to also changing the pricing model to better communicate the added value of the Valossa's service. </p>
+							<p>We redesigned the web portal, which also led us to changing the pricing model to better communicate the added value of the Valossa's service. </p>
 
 
 						</div>
 					</div>
 
-					<h4>Fintech</h4>
+					<h4 class="subsection">Fintech</h4>
 					<div class="grid-x grid-padding-x">
 						<div class="small-12 medium-6 cell part">
+							<img class="illustration" src="img/illustrations/fundlift.png">
 							<h3 class="with-number"><span class="number">C</span>Fundlift</h3>
-							<p>We designed logo of crowdfunding platform.</p>
-							<p><a href="https://www.behance.net/gallery/57975859/Fundlift-Logo-for-Investment-crowdfunding-Platform" class="btn lite">Read Branding Study <i class="far fa-external-link-square"></i></a></p>
+							<p>We designed logo of a crowdfunding platform.</p>
+							<p><a href="https://www.behance.net/gallery/57975859/Fundlift-Logo-for-Investment-crowdfunding-Platform" target="_blank" class="btn lite">Read Branding Study <i class="far fa-external-link-square"></i></a></p>
 						</div>
 					</div>
 
-					<h4>Travel</h4>
+					<h4 class="subsection">Travel</h4>
 					<div class="grid-x grid-padding-x">
 						<div class="small-12 medium-6 cell part">
-							<h3 class="with-number"><span class="number">E</span>Bileto</h3>
-							<p>We created Transportation Ticket Selling Platform.</p>
-							<p><a href="https://www.behance.net/gallery/58120231/Bileto-Brand-for-Public-Transportation-Platform" class="btn lite">Read Branding Study <i class="far fa-external-link-square"></i></a>
-								<a href="https://www.behance.net/gallery/58038141/Bileto-UX-UI-for-Public-Transportation-Platform" class="btn lite">Read UI&amp;UX Study <i class="far fa-external-link-square"></i></a></p>
+							<img class="illustration" src="img/illustrations/bileto.png">
+							<h3 class="with-number"><span class="number">D</span>Bileto</h3>
+							<p>We created a transportation ticket selling platform. Bileto is still on its course to improve transport ticket business.</p>
+							<p><a href="https://www.behance.net/gallery/58120231/Bileto-Brand-for-Public-Transportation-Platform" target="_blank"  class="btn lite">Read Branding Study <i class="far fa-external-link-square"></i></a>
+							<a href="https://www.behance.net/gallery/58038141/Bileto-UX-UI-for-Public-Transportation-Platform" target="_blank"  class="btn lite">Read UI&amp;UX Study <i class="far fa-external-link-square"></i></a></p>
 						</div>
 						<div class="small-12 medium-6 cell part">
-							<h3 class="with-number"><span class="number">F</span>Rekola</h3>
-							<p>We designed marketing materials. It's great to work for a bikesharing love brand.</p>
+							<img class="illustration" src="img/illustrations/rekola.png">
+							<h3 class="with-number"><span class="number">E</span>Rekola</h3>
+							<p>Rekola is the biggest bike sharing company in Czechia. They want to scale to more cities and countries. Together, we created a new business strategy and sales materials to help them tackle the scaling challenge.</p>
+							<!--<p class="quote">"Thanks to Jan we were able significantly to improve the attractiveness of our offer and acquire customers like city Kladno."<br>– Vit Jezek, CEO</p>-->
+							<p><a href="https://kladensky.denik.cz/zpravy_region/kladnem-budou-zanedlouho-jezdit-rekola-20170727.html" target="_blank"  class="btn lite">Read Article (Czech) <i class="far fa-external-link-square"></i></a></p>
 						</div>
 					</div>
 
-					<h4>E-commerce</h4>
+					<h4 class="subsection">E-commerce</h4>
 					<div class="grid-x grid-padding-x">
 						<div class="small-12 medium-6 cell part">
-							<h3 class="with-number"><span class="number">G</span>Jack</h3>
-							<p>We created Personalised Gifts Selling Platform.</p>
-							<p><a href="https://www.behance.net/gallery/57902323/Jack-Brand-for-Personalised-Gifts-Selling-Platform" class="btn lite">Read Branding Study <i class="far fa-external-link-square"></i></a>
-							<a href="https://www.behance.net/gallery/57764003/Jack-UX-UI-for-Personalised-Gifts-Selling-Platform" class="btn lite">Read UI&amp;UX Study <i class="far fa-external-link-square"></i></a></p>
+							<img class="illustration" src="img/illustrations/jack.png">
+							<h3 class="with-number"><span class="number">F</span>Jack</h3>
+							<p>We created a personalised gifts selling platform. Jack created a business opportuinty in reaching a highly local customers via Facebook.</p>
+							<p><a href="https://www.behance.net/gallery/57902323/Jack-Brand-for-Personalised-Gifts-Selling-Platform" target="_blank"  class="btn lite">Read Branding Study <i class="far fa-external-link-square"></i></a>
+							<a href="https://www.behance.net/gallery/57764003/Jack-UX-UI-for-Personalised-Gifts-Selling-Platform" target="_blank"  class="btn lite">Read UI&amp;UX Study <i class="far fa-external-link-square"></i></a></p>
 						</div>
 						<div class="small-12 medium-6 cell part">
-							<h3 class="with-number"><span class="number">H</span>Queens</h3>
-							<p>We prototyped and integrated FB chatbot to replace their email newsletter.</p>
-							<p><a href="https://tyinternety.cz/startupy/prodejce-tenisek-queens-spustil-vlastniho-chatbota/" class="btn lite">Read PR article (czech) <i class="far fa-external-link-square"></i></a>
+							<img class="illustration" src="img/illustrations/queens.png">
+							<h3 class="with-number"><span class="number">G</span>Queens</h3>
+							<p>We prototyped and integrated Facebook chatbot to replace their email newsletter.</p>
+							<p><a href="https://tyinternety.cz/startupy/prodejce-tenisek-queens-spustil-vlastniho-chatbota/" target="_blank"  class="btn lite">Read PR Article (Czech) <i class="far fa-external-link-square"></i></a>
 						</div>
 					</div>
         </div>
@@ -180,7 +198,7 @@
       <div class="grid-x grid-padding-x">
         <div class="large-10 large-offset-1 medium-10 medium-offset-1 cell">
 					<h2>How we work</h2>
-					<h4 class="subtle">We take care in understanding broad environments. We enjoy solving complex problems. We love discovering new horizons.</h4>
+					<h4 class="subtle">We take care to understand broad environments. We enjoy solving complex problems. We love discovering new horizons.</h4>
 					<div class="grid-x grid-padding-x">
         		<div class="small-12 large-4 cell part">
 							<span class="i-wrap"><i class="fal fa-language fa-3x"></i></span>
@@ -190,13 +208,12 @@
 						<div class="small-12 large-4 cell part">
 							<span class="i-wrap"><i class="fal fa-basketball-hoop fa-3x"></i></span>
 							<h3 class="with-number"><span class="number">2</span>Prototype</h3>
-							<p>Then it's time to play.<br/>We plug and shape the technologies to get to the most tangible experience, and test them to their limits.</p>
+							<p>Then it is time to play.<br/>We plug and shape the technologies to get to the most tangible experience, and test them to their limits.</p>
 						</div>
 						<div class="small-12 large-4 cell part">
 							<span class="i-wrap"><i class="fal fa-space-shuttle fa-3x"></i></span>
 							<h3 class="with-number"><span class="number">3</span>Growth</h3>
-							<p>We won't end with the plan how to fly. We'll make sure we fly together.
-</p>
+							<p>We will not end with the plan how to fly. We make sure we fly together.</p>
 						</div>
 					</div>
 				</div>
@@ -204,127 +221,18 @@
 		</div><!-- grid-container -->
 		</section><!-- grid-block -->
 
-		<section class="block" id="team">
-		<div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-10 large-offset-1 medium-10 medium-offset-1 cell">
-					<h2>Team</h2>
-					<h4 class="subtle"> We are designers, but more importantly friends. We have a bunch of projects behind us, we even <a href="http://techsquat.com" class="link">lived together</a> for a few years. We can trust each other and so can you.</h4>
 
-					<div class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-3">
-						<!-- alphabetically ordered -->
-						<div class="cell person part">
-							<img src="img/martin-andrle.jpg">
-							<h4>Martin Andrle &nbsp; <a class="link" href="martin-andrle.html" rel="nofollow"><i class="far fa-id-card-alt"></i></a></h4>
-							<p>Product Designer</p>
-						</div>
-
-						<div class="cell person part">
-							<img src="img/jan-antonin-kolar.jpg">
-							<h4>Jan Antonín Kolář</h4>
-							<p>Business Designer</p>
-						</div>
-
-						<div class="cell person part">
-							<img src="img/zuzana-maderova.jpg">
-							<h4>Zuzana Maderová</h4>
-							<p>CX Designer</p>
-						</div>
-
-						<div class="cell person part">
-							<img src="img/stanislav-mokry.jpg">
-							<h4>Stanislav Mokrý</h4>
-							<p>Visual Designer</p>
-						</div>
-
-						<div class="cell person part">
-							<img src="img/vladimir-mokry.jpg">
-							<h4>Vladimír Mokrý &nbsp; <a class="link" href="vladimir-mokry.html" rel="nofollow"><i class="far fa-id-card-alt"></i></a></h4>
-							<p>Multidisciplinary Designer<br>
-							</p>
-
-						</div>
-
-						<div class="cell person part">
-							<img src="img/jiri-zlatohlavek.jpg">
-							<h4>Jiří Zlatohlávek &nbsp; <a class="link" href="jiri-zlatohlavek.html" rel="nofollow"><i class="far fa-id-card-alt"></i></a></h4>
-							<p>Experience Designer</p>
-						</div>
-					</div><!-- grid-x -->
-				</div>
-			</div><!-- grid-x -->
-    </div><!-- grid-container -->
-		</section><!-- grid-block -->
-
-		<section class="block" id="core-capabilities">
-		<div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-10 large-offset-1 medium-10 medium-offset-1 cell">
-					<h2>Core capabilities</h2>
-					<h4 class="subtle">We love designing vital solutions. We excel in:</h4>
-					<div class="grid-x grid-padding-x">
-						<div class="small-12 medium-6 large-4 cell part">
-							<h3>Product Design</h3>
-							<p>We design products and services for people with both business and tech viability in mind. <p>
-							<h4>Research</h4>
-							<h4>UX/UI design</h4>
-							<h4>Testing</h4>
-
-						</div>
-						<div class="small-12 medium-6 large-4 cell part">
-							<h3>Growth Strategy</h3>
-							<p>Once we know where the product fits. We are all onboard to scale it. </p>
-							<h4>Business &amp; Marketing Strategy</h4>
-							<h4>Organization Design</h4>
-							<h4>Customer Experience</h4>
-						</div>
-						<div class="small-12 medium-12 large-4 cell part">
-							<h3>Visual Design</h3>
-							<p>We bring ideas into tangible visual concepts. </p>
-							<h4>Branding &amp; Visual Identity</h4>
-							<h4>Concept Art</h4>
-							<h4>Storyboarding</h4>
-
-						</div>
-					</div><!-- grid-x -->
-        </div>
-      </div><!-- grid-x -->
-    </div><!-- grid-container -->
-		</section><!-- grid-block -->
-
-		<section class="block" id="contact">
+		<section class="block" id="">
 		<div class="grid-container" >
       <div class="grid-x grid-padding-x">
         <div class="large-10 large-offset-1 medium-10 medium-offset-1 cell">
-					<h2>Contact</h2>
-					<h4 class="subtle">Let's quack status quo together. Wanna talk? </h4>
 					<div class="grid-x grid-padding-x">
-						<div class="small-12 large-7 cell part">
+						<div class="cell part">
+							<p class="text-center"><a href="about.html" class="btn">Learn more about us <i class="far fa-arrow-right"></i></a></p>
+							<p class="small text-center">Or write us now</p>
 							<h4>Martin Andrle</h4>
 							<h4 class="subtle">martin<!---->&#64;statusquack.com</h4>
 							<p><a class="btn" href="https://calendly.com/martin-andrle/30min"><i class="far fa-calendar-plus"></i>  &nbsp; Schedule a 30 min call</a></p>
-						</div>
-						<div class="small-12 large-5 cell part">
-							<h4>Ask us anything</h4>
-							<h4 class="show-for-large">&nbsp;</h4>
-							<p><a class="btn lite" href="https://t.me/statusquack"><i class="fab fa-telegram"></i>  &nbsp; Telegram</a></p>
-						</div>
-
-						<div class="small-12 large-7 cell part">
-							<h4>Meet us</h4>
-							<h4 class="subtle"> Zuzka at <a href="https://womenintech.cz/" class="link">Women in Tech</a></h4>
-							<p>June 16, 2018</p>
-                            
-                            <h4 class="subtle"> Jan at <a href="https://www.meetup.com/MunichUX/events/248097433/" class="link">UX &amp; Product Meetup Munich</a></h4>
-							<p>June 28, 2018</p>
-							
-							<h4 class="subtle"> Zuzka &amp; Martin at <a href="http://communities.techstars.com/czech-republic/prague/startup-weekend/12795" class="link">Startupweekend Prague</a></h4>
-							<p>October 5 - 7, 2018</p>
-
-						</div>
-						<div class="small-12 large-5 cell part">
-							<h4>We are social</h4>
-							<p><a class="btn lite" href="https://www.linkedin.com/company/status-quack/"><i class="fab fa-linkedin"></i>  &nbsp; LinkedIn</a></p>
 						</div>
 					</div>
 				</div>
@@ -380,7 +288,6 @@
 			'We will design the next thing your boss will approve',
 			'We build products for the 22nd century',
 			'We will put shipping into our relationship'
-            'We believe that even ducks can make a leapfrog.'
 		]);
 
 		// Display
