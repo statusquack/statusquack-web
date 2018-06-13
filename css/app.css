@@ -374,12 +374,23 @@ a.btn:active {
 	transition: all 0.3s ease;
 }
 a.btn .fa-external-link-square,
-a.btn .fa-clone {
+a.btn .fa-clone
+{
 	position: absolute;
 	top: -0.3em;
-	right: -0.3em;
+	right: -0.55em;
 	background-color: white;
-	
+}
+a.btn .fa-calendar-plus,
+a.btn .fa-arrow-left,
+a.btn .fa-telegram,
+a.btn .fa-linkedin
+{
+    margin-right: 0.25em;
+}
+a.btn .fa-arrow-right
+{
+margin-left: 0.25em;
 }
 a.btn.lite {
 	padding: calc(0.5em - 2px) calc(0.7em - 2px) calc(0.55em - 2px);
