@@ -351,6 +351,10 @@ a.link:hover {
 a.link.active {
 	color: #111144;
 }
+a.link .fa-id-card-alt {
+margin-right: 0.25em;	
+}
+
 a.btn {
 	position: relative;
 	display: inline-block;
@@ -392,6 +396,12 @@ a.btn .fa-arrow-right
 {
 margin-left: 0.25em;
 }
+a.btn .fa-clone.negative
+{
+color: #FF5522;
+border: 0.08em solid white;
+border-radius: 3px;
+}    
 a.btn.lite {
 	padding: calc(0.5em - 2px) calc(0.7em - 2px) calc(0.55em - 2px);
 	background-color: inherit;
