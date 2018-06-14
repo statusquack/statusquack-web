@@ -258,9 +258,19 @@ p.quote {
 
 
 /* - - - - - - -
- FOOTER 
+ CTA
 - - - - - - - */
-
+#cta {
+	text-align: center;
+}
+#cta .small {
+	padding-bottom: 4em;
+}
+@media screen and (min-width: 40em) {
+	#cta .small {
+		padding-bottom: 5em;	
+	}
+}
 
 /* - - - - - - -
  BUSINESS CARD
