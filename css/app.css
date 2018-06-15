@@ -153,9 +153,17 @@ p.quote {
 .bounce {
 	display: block;
 	animation: bounce 1s infinite alternate;
-
+	-webkit-animation: bounce 1s infinite alternate;
 }
 @keyframes bounce {
+  from {
+    transform: translateY(5px);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+@-webkit-keyframes bounce {
   from {
     transform: translateY(5px);
   }
