@@ -125,7 +125,6 @@ p.quote {
 
 #claim h1 { 
 	text-align: center;
-	opacity: 0.85; 
 	-webkit-transition: all width 2s; /* Safari */
    transition: all width 2s;
 }
