@@ -322,7 +322,7 @@ p.quote {
  FONTS 
 - - - - - - - */
 
-.small-caps {	text-transform: uppercase; letter-spacing: 0.05em; }
+
 a, p { line-height: 1.5; font-family: 'Open Sans', sans-serif; }
 p { color: rgba(17,17,68,.7); }
 p b { color: rgba(17,17,68,1); }
@@ -341,6 +341,11 @@ h2 						{ font-size: 31px; }
 h1 						{ font-size: 39px; }
 p.small 			{ font-size: 13px; }
 
+.small-caps {	text-transform: uppercase; letter-spacing: 0.05em; }
+abbr { 
+	border-bottom: 1px dashed rgba(17,17,68,.3) !important; 
+}
+
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	p		 				{ font-size: 20px; }
@@ -351,9 +356,7 @@ p.small 			{ font-size: 13px; }
 	p.small 		{ font-size: 16px; }
 	ol 					{ margin-left: 0rem; }
 }
-@media screen and (max-width: 390px) {
-	
-}
+
 
 
 /* BUTTONS & LINKS */
