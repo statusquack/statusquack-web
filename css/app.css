@@ -131,18 +131,22 @@ p.quote {
 }
 #claim h4 {
 	opacity: 0.75;
-	margin-bottom: 1em;
+	margin-bottom: 0.75em;
 }
 #claim h1 { 
 	-webkit-transition: all width 2s; /* Safari */
    transition: all width 2s;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.25em;
 }
 
 #claim p.small {
-	margin-top: 2em;
+	margin-top: 1.5em;
 }
-
+@media screen and (min-width: 40em) {
+	#claim .illustration {
+		margin-top: -5em;
+	}
+}
 
 
 /* - - - - - - -
