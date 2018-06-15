@@ -104,7 +104,7 @@ p.quote {
 .sq-logo img {
 	height: 48px;	
 }
-@media screen and (max-width: 32em) {
+@media screen and (max-width: 28em) {
 	.sq-logo-cell {
 		margin-right: -100px;
 	}
@@ -122,23 +122,27 @@ p.quote {
 /* - - - - - - -
  CLAIM 
 - - - - - - - */
-
-#claim h1 { 
-	text-align: center;
-	-webkit-transition: all width 2s; /* Safari */
-   transition: all width 2s;
-}
-#claim p.text-center {
-	margin-top: 1em;
-}
-
 #claim .illustration {
-	width: 15em;
+	width: 13em;
 	margin: auto;
 	display: block;
 	margin-top: -4em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
+#claim h4 {
+	opacity: 0.75;
+	margin-bottom: 1em;
+}
+#claim h1 { 
+	-webkit-transition: all width 2s; /* Safari */
+   transition: all width 2s;
+	margin-bottom: 0.5em;
+}
+
+#claim p.small {
+	margin-top: 2em;
+}
+
 
 
 /* - - - - - - -
