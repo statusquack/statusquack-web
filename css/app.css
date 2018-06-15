@@ -387,30 +387,31 @@ a.btn:active {
 	top: 2px;
 	transition: all 0.3s ease;
 }
+a.btn.out {
+	padding-right: 2em;
+}
 a.btn .fa-external-link-square,
-a.btn .fa-clone
-{
+a.btn .fa-clone {
 	position: absolute;
 	top: -0.3em;
-	right: -0.55em;
+	right: -0.3em;
 	background-color: white;
+	padding-left: 0.1em;
+	padding-bottom: 0.1em;
 }
 a.btn .fa-calendar-plus,
 a.btn .fa-arrow-left,
 a.btn .fa-telegram,
-a.btn .fa-linkedin
-{
-    margin-right: 0.25em;
+a.btn .fa-linkedin {
+	margin-right: 0.25em;
 }
-a.btn .fa-arrow-right
-{
-margin-left: 0.25em;
+a.btn .fa-arrow-right {
+	margin-left: 0.25em;
 }
-a.btn .fa-clone.negative
-{
-color: #FF5522;
-border: 0.08em solid white;
-border-radius: 3px;
+a.btn .fa-clone.negative {
+	color: #FF5522;
+	border: 0.08em solid white;
+	border-radius: 3px;
 }    
 a.btn.lite {
 	padding: calc(0.5em - 2px) calc(0.7em - 2px) calc(0.55em - 2px);
@@ -418,6 +419,10 @@ a.btn.lite {
 	color: rgba(255,86,34,1);
 	border: 2px solid rgba(255,86,34,.5);
 	border-radius: 3px;
+}
+a.btn.lite.out {
+	padding-right: calc(1em - 2px);
+	margin-top: 0.1em; margin-right: 0.1em;
 }
 a.btn.lite:hover {
 	color: rgba(187,0,69,1);
