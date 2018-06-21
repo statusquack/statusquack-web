@@ -344,7 +344,7 @@ p.quote {
 		padding: 1em;
 		padding-bottom: 2em;
 		padding-top: 0.5em;
-		border-radius: 1em;
+		border-radius: 0.8em;
 	}
 }
 @media screen and (min-width: 40em) {
@@ -357,6 +357,7 @@ p.quote {
 		padding: 1.25em;
 		padding-bottom: 2.5em;
 		padding-top: 0.625em;
+		border-radius: 1em;
 	}
 	.business-card img.photo {
 		max-width: 6em;
