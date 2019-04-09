@@ -402,15 +402,7 @@ cite {
 	text-align: center;
 }
 
-#cta .small {
-	padding-bottom: 4em;
-}
-
-@media screen and (min-width: 40em) {
-	#cta .small {
-		padding-bottom: 5em;
-	}
-}
+@media screen and (min-width: 40em) {}
 
 /* - - - - - - -
  BUSINESS CARD
@@ -684,7 +676,8 @@ a.btn .fa-clone {
 a.btn .fa-calendar-plus,
 a.btn .fa-arrow-left,
 a.btn .fa-telegram,
-a.btn .fa-linkedin {
+a.btn .fa-linkedin,
+a.btn .fa-microphone {
 	margin-right: 0.25em;
 }
 
