@@ -372,7 +372,7 @@ blockquote {
 
 	blockquote:before {
 		content: '“';
-		left: -5rem;
+		left: -5.5rem;
 		top: -1rem;
 	}
 
