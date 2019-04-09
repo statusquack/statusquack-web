@@ -353,6 +353,8 @@ blockquote {
 	position: relative;
 	border-left-width: 2px;
 	border-left-color: rgba(17, 17, 68, .25);
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 blockquote:before,
