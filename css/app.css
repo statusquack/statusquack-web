@@ -294,16 +294,6 @@ p.quote {
 	margin-bottom: 0.5em;
 }
 
-.member-chip {
-	width: 1em;
-	border-radius: 100%;
-	-webkit-filter: grayscale(1);
-	margin-bottom: 0.5em;
-	display: inline-block;
-	margin-top: -.5em;
-	margin-bottom: -.3em;
-}
-
 @media screen and (max-width: 39.9375em) and (min-width: 360px) {
 	#team img {
 		float: left;
