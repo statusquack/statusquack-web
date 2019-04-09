@@ -12,6 +12,8 @@ section {
 	padding-bottom: 4em;
 }
 
+
+
 .part {
 	margin-bottom: 3em;
 }
@@ -146,6 +148,38 @@ p.quote {
 
 
 /* - - - - - - -
+ CHAPTER 
+- - - - - - - */
+
+section.chapter {
+	text-align: center;
+}
+
+section.chapter hr {
+	border-bottom: 1px solid rgba(17, 17, 68, .25);
+	margin-bottom: -0.9em;
+}
+
+section.chapter p {
+	margin-bottom: 0.5em;
+	padding: 0 .5em;
+	background-color: white;
+	display: inline-block;
+}
+
+section.chapter h4 {
+	font-style: italic;
+}
+
+@media screen and (min-width: 40em) {
+	section.chapter hr {
+		border-bottom: 2px solid rgba(17, 17, 68, .25);
+		margin-bottom: -0.8em;
+	}
+
+}
+
+/* - - - - - - -
  CLAIM 
 - - - - - - - */
 
@@ -207,6 +241,7 @@ p.quote {
 		transform: translateY(-5px);
 	}
 }
+
 
 /* - - - - - - -
  TRUSTED BY
