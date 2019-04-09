@@ -355,28 +355,32 @@ blockquote {
 	border-left-color: rgba(17, 17, 68, .25);
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+
 }
 
-blockquote:before,
-blockquote:after {
-	position: absolute;
-	color: rgba(17, 17, 68, .2);
-	font-size: 5rem;
-	width: 4rem;
-	height: 4rem;
-	font-family: 'bungee', sans-serif;
-}
+@media screen and (min-width: 64em) {
+	blockquote:before,
+	blockquote:after {
+		position: absolute;
+		color: rgba(17, 17, 68, .2);
+		font-size: 5rem;
+		width: 4rem;
+		height: 4rem;
+		font-family: 'bungee', sans-serif;
 
-blockquote:before {
-	content: '“';
-	left: -6rem;
-	top: -1rem;
-}
+	}
 
-blockquote:after {
-	content: '”';
-	right: -6rem;
-	bottom: 0rem;
+	blockquote:before {
+		content: '“';
+		left: -5rem;
+		top: -1rem;
+	}
+
+	blockquote:after {
+		content: '”';
+		right: -4rem;
+		bottom: 0rem;
+	}
 }
 
 cite {
