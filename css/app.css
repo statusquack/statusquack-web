@@ -349,6 +349,37 @@ p.quote {
 	margin-bottom: 0;
 }
 
+blockquote {
+	position: relative;
+	border-left-width: 2px;
+	border-left-color: rgba(17, 17, 68, .25);
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: rgba(17, 17, 68, .2);
+	font-size: 5rem;
+	width: 4rem;
+	height: 4rem;
+	font-family: 'bungee', sans-serif;
+}
+
+blockquote:before {
+	content: '“';
+	left: -6rem;
+	top: -1rem;
+}
+
+blockquote:after {
+	content: '”';
+	right: -6rem;
+	bottom: 0rem;
+}
+
+cite {
+	font-style: normal;
+}
 
 
 /* - - - - - - -
@@ -459,17 +490,28 @@ p.quote {
 - - - - - - - */
 
 a,
-p {
+p,
+blockquote,
+blockquote p,
+cite {
 	line-height: 1.5;
 	font-family: 'Open Sans', sans-serif;
 }
 
-p {
+p,
+blockquote,
+blockquote p,
+cite {
 	color: rgba(17, 17, 68, .7);
 }
 
 p b {
 	color: rgba(17, 17, 68, 1);
+}
+
+blockquote,
+blockquote p {
+	font-style: italic;
 }
 
 h1,
@@ -549,7 +591,8 @@ abbr {
 /* Medium and up */
 
 @media screen and (min-width: 40em) {
-	p {
+	p,
+	blockquote {
 		font-size: 20px;
 	}
 	h4,
@@ -565,7 +608,8 @@ abbr {
 	h1 {
 		font-size: 49px;
 	}
-	p.small {
+	p.small,
+	cite {
 		font-size: 16px;
 	}
 	ol {
