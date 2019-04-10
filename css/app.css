@@ -304,18 +304,6 @@ section.chapter h4 {
 }
 
 
-/* - - - - - - -
- HOW WE WORK 
-- - - - - - - */
-
-#how-we-work .part .i-wrap {
-	color: #00BBFF;
-	display: block;
-	margin-bottom: 1em;
-}
-
-#how-we-work h3 {}
-
 
 /* - - - - - - -
  TEAM 
@@ -347,10 +335,18 @@ section.chapter h4 {
 }
 
 /* - - - - - - -
- CORE CAPABILITIES
+ THREE BLOCK
 - - - - - - - */
 
-#core-capabilities .part .i-wrap {
+h2 + .three-block {
+	margin-top: 2em;
+}
+
+.three-block {
+	margin-top: 3em;
+}
+
+.three-block .part .i-wrap {
 	color: #00BBFF;
 	display: block;
 	margin-bottom: 1em;
