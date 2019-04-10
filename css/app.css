@@ -363,6 +363,7 @@ section.chapter h4 {
 .voice-table .i-wrap {
 	color: #00BBFF;
 	display: block;
+
 	margin-bottom: 1em;
 }
 
@@ -560,7 +561,7 @@ h1 {
 }
 
 h2 {
-	margin-bottom: 0.5em;
+	margin-bottom: .75em;
 }
 
 h4 + h4 {
