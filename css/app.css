@@ -555,17 +555,22 @@ h4 {
 	color: #111144;
 }
 
+h1 {
+	margin-bottom: 0.5em;
+}
+
 h2 {
 	margin-bottom: 0.5em;
+}
+
+h4 + h4 {
+	margin-top: 0.6em;
 }
 
 h1.subtle,
 h2.subtle,
 h3.subtle,
-h4.subtle {
-	font-weight: 400;
-}
-
+h4.subtle,
 h1 .subtle,
 h2 .subtle,
 h3 .subtle,
