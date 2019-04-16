@@ -309,7 +309,7 @@ section.chapter h4 {
  TEAM 
 - - - - - - - */
 
-#team img {
+.team img {
 	width: 4em;
 	border-radius: 100%;
 	-webkit-filter: grayscale(1);
@@ -317,19 +317,19 @@ section.chapter h4 {
 }
 
 @media screen and (max-width: 39.9375em) and (min-width: 360px) {
-	#team img {
+	.team img {
 		float: left;
 	}
-	#team .person h4 {
+	.team .person h4 {
 		margin-left: 5rem;
 	}
-	#team .person p {
+	.team .person p {
 		margin-left: 5rem;
 	}
 }
 
 @media screen and (min-width: 40em) {
-	#team img {
+	.team img {
 		width: 5em;
 	}
 }
