@@ -304,14 +304,14 @@ section.chapter h4 {
 }
 
 #work .label {
-  font-size: 0.6em;
+  font-size: 0.5em;
   text-transform: uppercase;
   padding: 0.25em 0.5em 0.3em;
   background-color: #00BBFF;
   color: white;
   border-radius: 2px;
   position: relative;
-  top: -.2em;
+  top: -.3em;
   margin-left: 0.3em;
 }
 
